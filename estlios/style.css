@@ -11,6 +11,12 @@ body, ul, li, p{
     background-color: #EBEBEB;
 }
 
+header a img{
+    height: 20%;
+    width: 20%;
+    transform: translate(-30%, -30%);
+}
+
 h1{
     text-align: center;
     margin-top: 100px;
@@ -25,6 +31,15 @@ a{
 img{
     max-width: 100%;
     display: block;
+}
+
+div > p{
+    text-align: center;
+}
+
+div > a{
+    text-align: center;
+    color: black;
 }
 
 .header{

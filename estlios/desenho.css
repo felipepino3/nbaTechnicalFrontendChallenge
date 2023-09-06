@@ -4,12 +4,6 @@
     margin: 0px;
     padding: 0px;
 }
-body, ul, li, p{
-    list-style: none;
-    font-size: 1.2em;
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #EBEBEB;
-}
 
 header a img{
     height: 20%;
@@ -17,15 +11,27 @@ header a img{
     transform: translate(-30%, -30%);
 }
 
-header > h1 {
-    color: white;
+body, ul, li, p{
+    list-style: none;
+    font-size: 1.2em;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #EBEBEB;
+}
+
+header{
+    background-color: gray;
+}
+
+header > h1{
+    padding: 10px;
     text-align: center;
+    color: white;
 }
 
 span#burguer{
-    color: white;
+    background-color: rgb(56, 54, 54);
     display: block;
-    text-align: right;
+    text-align: center;
     padding: 10px;
     cursor: pointer;
 }
@@ -33,7 +39,37 @@ span#burguer{
 span#burguer:hover{
     background-color: white;
     color: black;
-    text-align: right;
+}
+
+menu{
+    display: none;
+}
+
+menu > ul{
+    list-style-type: none;
+}
+
+menu > ul > li > a{
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+    background-color: rgb(56, 54, 54);
+    color: white;
+    border-top: 2px solid rgb(153, 153, 153);
+}
+
+menu > ul > li > a:hover{
+    background-color: gray;
+}
+
+main{
+    width: 90vw;
+    background-color: white;
+    margin: auto;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 10px;
 }
 
 h1{
@@ -67,38 +103,12 @@ div > a:hover{
 
 .header{
     background-color: black;
-    flex-wrap: wrap;
     justify-content: space-between;
     padding: 20px;
     align-items: center;
     
 }
 
-menu{
-    display: none;
-}
-
-menu > ul{
-    list-style-type: none;
-}
-
-menu > ul > li > a:hover{
-    background-color: red;
-}
-
-menu > ul > li > a{
-    display: block;
-    text-decoration: none;
-    text-align: center;
-    background-color: rgb(56, 54, 54);
-    color: white;
-    border-top: 2px solid rgb(153, 153, 153);
-}
-
-.imenu{
-    display: inline;
-
-}
 .imenu > li{
     margin-left: 0px;
 

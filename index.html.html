@@ -3,21 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="imagens/Pinpoint-Color.svg" type="image/x-icon">
-    <title>Pinpoint</title>
+    <title>Felipe Moraes</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="estlios/style.css">
 </head>
 <body>
-
     <header class="header">
-        <a href="index.html"><img src="imagens/fotofelipe.jpeg" alt="Logo"></a>
-        <nav>
-            <ul class="menu">
+        <h1>Felipe Moraes</h1>
+        <span id="burguer" class="material-icons" onclick="clickMenu()">menu</span>
+        <menu id="itens">
+            <ul class="imenu">
                 <li><a href="index.html">Sobre Mim</a></li>
-                <li><a href=""></a></li>
+                <li><a href="#">Introdução</a></li>
+                <li><a href="#">Música</a></li>
+                <li><a href="#">Hobbies</a></li>
+                <li><a href="#">Tecnologia</a></li>
+                <li><a href="#">Futuro</a></li>
+                <li><a href="#">Rigby</a></li>
                 <li><a href="http://wa.me/5511961000430" target="_blank">Contato</a></li>
+                <li><a href="https://github.com/felipepino3" target="_blank">GitHub</a></li>
             </ul>
-        </nav>
+        </menu>
     </header>
     
     <h1>Sobre Mim</h1>
@@ -60,5 +66,15 @@
             </a>
         </div>
     </section>
+
+    <script>
+        function clickMenu() {
+            if (itens.style.display == 'block') {
+                itens.style.display = 'none'
+            } else {
+                itens.style.display = 'block'
+            }
+        }
+    </script>
 </body>
 </html>

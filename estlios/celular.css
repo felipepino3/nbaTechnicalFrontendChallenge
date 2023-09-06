@@ -27,6 +27,12 @@ main{
     margin: auto;
 }
 
+main > p {
+    text-align: justify;
+    margin-bottom: 10px;
+    text-indent: 20px;
+}
+
 img{
     width: 250px;
 }

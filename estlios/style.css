@@ -22,6 +22,7 @@ header > h1 {
     text-align: center;
 }
 
+
 span#burguer{
     color: white;
     display: block;
@@ -69,7 +70,7 @@ div > a:hover{
     background-color: black;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding: 20px;
+    padding: 10px;
     align-items: center;
     
 }
@@ -90,17 +91,18 @@ menu > ul > li > a{
     display: block;
     text-decoration: none;
     text-align: center;
-    background-color: rgb(56, 54, 54);
+    background-color: black;
     color: white;
     border-top: 2px solid rgb(153, 153, 153);
 }
 
 .imenu{
     display: inline;
+    background-color: black;
 
 }
 .imenu > li{
-    margin-left: 0px;
+    margin-left: -7px;
 
 }
 .imenu > li > a{
